@@ -68,9 +68,8 @@ export const Heading = styled.h1`
 	font-size: 64px;
 	line-height: 100%;
 	font-weight: 600;
-	color: ${({lightText}) => (lightText ? '#f7f8fa' : '010606')}
-	@media screen and (max-width: 480px;){
-		font-size: 32px;
+	@media screen and (max-width: 768px){
+		font-size: 55px;
 	}
 `
 export const HeadingSpan = styled.span`
