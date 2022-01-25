@@ -28,12 +28,20 @@ export const FirstMainBox = styled.div`
     padding-bottom: 100px;
     padding-left: 80px;
     padding-right: 80px;
+	@media screen and (max-width:730px){
+		padding-left: 25px;
+    	padding-right: 25px;
+	}
 `
 export const SecondMainBox = styled.div`
     padding-top: 120px;
     padding-bottom: 70px;
     padding-left: 80px;
     padding-right: 80px;
+	@media screen and (max-width:730px){
+		padding-left: 25px;
+    	padding-right: 25px;
+	}
 `
 export const ThirdMainBox = styled.div`
     padding-top: 200px;
@@ -41,6 +49,10 @@ export const ThirdMainBox = styled.div`
     padding-left: 80px;
     padding-right: 80px;
 	height: 100%;
+	@media screen and (max-width:730px){
+		padding-left: 10px;
+    	padding-right: 10px;
+	}
 `
 export const MainTitle = styled.h1`
 	font-size: 65px;
@@ -59,7 +71,7 @@ export const MainTitle2 = styled.h1`
 	margin:0 0 0px;
 	padding:0 0 0px;
 	@media screen and (max-width:730px){
-		font-size: 95px;
+		font-size: 75px;
 	}
 `
 export const TextSpan = styled.span`
@@ -97,6 +109,10 @@ export const MainContent = styled.div`
 	padding-bottom: 170px;
 	padding-left: 30px;
 	padding-right: 30px;
+	@media screen and (max-width:730px){
+		padding-left: 15px;
+    	padding-right: 15px;
+	}
 `
 export const MainContent2 = styled.div`
 	z-index:3;

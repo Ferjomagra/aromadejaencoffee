@@ -22,7 +22,7 @@ const Sidebar = ({isOpen, toggle}) => {
  			<SidebarWrapper>
  				<SidebarMenu>
 
- 					<SidebarLink to="Ourcoffee" onClick={toggle}>LA CAFETERÍA</SidebarLink>
+ 					<SidebarLink to="Ourcafeteria" onClick={toggle}>LA CAFETERÍA</SidebarLink>
 
  					<ATag target="_blank" href={PdfCarta}>CARTA</ATag>
 

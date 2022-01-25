@@ -70,6 +70,9 @@ export const Heading = styled.h1`
 	font-weight: 600;
 	@media screen and (max-width: 768px){
 		font-size: 55px;
+	};
+	@media screen and (max-width: 400px){
+		font-size: 40px;
 	}
 `
 export const HeadingSpan = styled.span`

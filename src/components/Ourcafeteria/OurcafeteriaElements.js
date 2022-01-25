@@ -70,7 +70,10 @@ export const Heading = styled.h1`
 	color: ${({lightText}) => (lightText ? '#f7f8fa' : '010606')};
 	@media screen and (max-width: 768px){
 		font-size: 55px;
-	}
+	};
+	@media screen and (max-width: 400px){
+		font-size: 40px;
+	};
 `
 export const HeadingSpan = styled.span`
 	color: #00cc88;
@@ -84,7 +87,10 @@ export const Heading1 = styled.h1`
 	color: ${({lightText}) => (lightText ? '#00cc88' : '00cc88')};
 	@media screen and (max-width: 768px){
 		font-size: 55px;
-	}
+	};
+	@media screen and (max-width: 400px){
+		font-size: 40px;
+	};
 `
 
 export const Subtitle = styled.p`

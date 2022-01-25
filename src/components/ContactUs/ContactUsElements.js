@@ -69,7 +69,7 @@ export const BoxSide = styled.div`
 	display: inline-block;
 	vertical-align: middle;
 	@media screen and (max-width:903px){
-		display:inline-block;
+		display:block;
 		margin-bottom: 10px;
 	}
 `
@@ -125,6 +125,12 @@ export const MainBtnWrapper = styled.div`
 	&:hover{
 		background: #e6e6e6;
 		transition: all 0.5s ease;
+	};
+	@media screen and (max-width:903px){
+		padding:20px;
+	}
+	@media screen and (max-width:400px){
+		padding:10px;
 	}
 `
 export const WtpImg = styled.img`

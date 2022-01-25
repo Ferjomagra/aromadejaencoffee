@@ -39,7 +39,7 @@ export const MainTitle = styled.h1`
 	margin:0 0 0px;
 	padding:0 0 0px;
 	@media screen and (max-width:730px){
-		
+		font-size: 50px;
 	}
 `
 export const TextSpan = styled.span`
