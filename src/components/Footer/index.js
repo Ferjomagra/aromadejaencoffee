@@ -26,7 +26,7 @@ const Footer = () => {
                 <FooterLinksContainer>
                     <FooterLinksWrapper>
                         <FooterLinkItems>
-                            <FooterLinkTitle> Menu </FooterLinkTitle>
+                            <FooterLinkTitle> Opciones </FooterLinkTitle>
                             
                             
                             <FooterLinkA href="/AboutUs">Sobre Nosotros</FooterLinkA>
