@@ -6,6 +6,7 @@ import ContactUs from './pages/contactus';
 import Ourcafeteria from './pages/OurCafeteria';
 import OurcoffeeInfo from './pages/OurCoffeeInfo';
 import AboutUsInfo from './pages/AboutUs';
+import ProductList from './pages/ProductList'
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Route path="/Ourcafeteria" component={Ourcafeteria} exact/>
         <Route path="/Ourcoffee" component={OurcoffeeInfo} exact/>
         <Route path="/AboutUs" component={AboutUsInfo} exact/>
+        <Route path="/ProductList" component={ProductList} exact/>
       </Switch>
 
     </Router>

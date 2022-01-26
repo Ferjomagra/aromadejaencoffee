@@ -42,7 +42,7 @@ const OurCafeteria = () => {
 							<TextSpan> lo mejor de nuestra casa</TextSpan>
 						</MainTitle>
 						
-						<IntroText>Un menú y lugar siempre frescos</IntroText>
+						<IntroText>Un café y lugar siempre frescos</IntroText>
 					</FirstMainBox>
 
 					<MainContent>
@@ -75,14 +75,14 @@ const OurCafeteria = () => {
 							backgroundRepeat: 'no-repeat'
 							}}>
 						<MainTitle>
-							De paso, prueba nuestros Creppes
+							De paso, prueba nuestro Aroma de Jaén Coffee
 						</MainTitle>
 
 						<MainContent2>
 							<BoxSide>
 
 								<TextA href="">
-									<LocationImg src="https://res.cloudinary.com/dintair/image/upload/v1642872400/Aroma%20de%20Ja%C3%A9n/creppe_fresa_mango_3.jpg"/>
+									<LocationImg title="Creppe de fudge con mango, fresa y helado" src="https://res.cloudinary.com/dintair/image/upload/v1642872479/Aroma%20de%20Ja%C3%A9n/creppe_helado_1.jpg"/>
 								</TextA>
 
 							</BoxSide>
@@ -90,7 +90,39 @@ const OurCafeteria = () => {
 							<BoxSide>
 
 								<TextA href="">
-									<LocationImg src="https://res.cloudinary.com/dintair/image/upload/v1642872477/Aroma%20de%20Ja%C3%A9n/creppe_salado_2.jpg"/>
+									<LocationImg title="Crepper de leche condensada con plátano, fresa y arándanos" src="https://res.cloudinary.com/dintair/image/upload/v1642872478/Aroma%20de%20Ja%C3%A9n/creppe_fresa_arandanos_1.jpg"/>
+								</TextA>
+								
+							</BoxSide>
+							
+							<BoxSide>
+
+								<TextA href="">
+									<LocationImg title="Frappe de café" src="https://res.cloudinary.com/dintair/image/upload/v1643207832/Aroma%20de%20Ja%C3%A9n/IMG-20211130-WA0030.jpg"/>
+								</TextA>
+
+							</BoxSide>
+							
+							<BoxSide>
+
+								<TextA href="">
+									<LocationImg title="Frappe de aguaymanto" src="https://res.cloudinary.com/dintair/image/upload/v1643208567/Aroma%20de%20Ja%C3%A9n/IMG-20211130-WA0025.jpg"/>
+								</TextA>
+								
+							</BoxSide>
+
+							<BoxSide>
+
+								<TextA href="">
+									<LocationImg title="Chilcano de café" src="https://res.cloudinary.com/dintair/image/upload/v1643208779/Aroma%20de%20Ja%C3%A9n/t_1.jpg"/>
+								</TextA>
+
+							</BoxSide>
+							
+							<BoxSide>
+
+								<TextA href="">
+									<LocationImg title="Daiquiri de café" src="https://res.cloudinary.com/dintair/image/upload/v1643208934/Aroma%20de%20Ja%C3%A9n/t_2.jpg"/>
 								</TextA>
 								
 							</BoxSide>

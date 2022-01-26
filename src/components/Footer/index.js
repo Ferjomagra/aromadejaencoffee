@@ -29,10 +29,9 @@ const Footer = () => {
                             <FooterLinkTitle> Menu </FooterLinkTitle>
                             
                             
-                            <FooterLink to="AboutUs">Sobre Nosotros</FooterLink>
+                            <FooterLinkA href="/AboutUs">Sobre Nosotros</FooterLinkA>
                             
-                            <FooterLink to="Discover">Políticas de calidad</FooterLink>
-                            <FooterLink to="Services">Línea de productos</FooterLink>
+                            <FooterLinkA href="/ProductList">Línea de productos</FooterLinkA>
                             <FooterLinkA href="/ContactUs">Contáctanos</FooterLinkA>
                         </FooterLinkItems>
 
