@@ -33,8 +33,8 @@ const OurCafeteria = () => {
 				<FirstBox>
 					<FirstMainBox>
 						<MainTitle>
-							Nuestro catálogo
-							<TextSpan> de catálogos</TextSpan>
+							Nuestra línea
+							<TextSpan> de Productos</TextSpan>
 						</MainTitle>
 						
 						<IntroText>Un café y lugar siempre frescos</IntroText>
