@@ -107,7 +107,7 @@ const AboutUsInfo = () => {
                                 </Column1>
                                 <Column2>
                                     <ImgWrap>
-                                        <Img src={productos} alt="La cafetería"/>
+                                        <Img src="https://res.cloudinary.com/dintair/image/upload/v1643551376/Aroma%20de%20Ja%C3%A9n/flocal_5.jpg" alt="La cafetería"/>
                                     </ImgWrap>
                                 </Column2>
                             </InfoRow>
@@ -136,7 +136,7 @@ const AboutUsInfo = () => {
                                 </Column1>
                                 <Column2>
                                     <ImgWrap>
-                                        <Img src={productos} alt=""/>
+                                        <Img src="https://res.cloudinary.com/dintair/image/upload/v1643571825/Aroma%20de%20Ja%C3%A9n/projects_vision.jpg" alt=""/>
                                     </ImgWrap>
                                 </Column2>
                             </SecundaryRow>
@@ -169,8 +169,6 @@ const AboutUsInfo = () => {
                             </InfoRow>
                         </InfoWrapper>
                     </InfoContainer>
-
-				pergamino pilado café de exportación
 
 				</FirstBox>
 			</MainBg>
