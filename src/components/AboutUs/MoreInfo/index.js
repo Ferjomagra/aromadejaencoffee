@@ -132,7 +132,7 @@ const AboutUsInfo = () => {
 
                             
                                     
-                                </TextWrapper>
+                                </TextWrapper> 
                                 </Column1>
                                 <Column2>
                                     <ImgWrap>
