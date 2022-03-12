@@ -10,6 +10,7 @@ import Recipes from '../components/Recipes';
 import AboutUs from '../components/AboutUs';
 
 
+
 const Home = () => {
     
     const [isOpen, setIsOpen] = useState(false)
@@ -33,3 +34,9 @@ const Home = () => {
 }
 
 export default Home
+
+
+//Hay tres tipos de links de reidrección
+//1. El link de redirección sin recargar (styled(LinkR)) que viene de react-router-dom
+//2. La redirección de con recargo de página (con la etiqueta a).
+//3. Redirección a una sección de la misma página (styled(LinkS)).

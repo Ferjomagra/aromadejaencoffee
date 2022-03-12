@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 import {Link as LinkS} from 'react-scroll'
-//import {Link as LinkR} from 'react-router-dom'
+import {Link as LinkR} from 'react-router-dom'
 import {FaTimes} from 'react-icons/fa'
 
 export const SidebarContainer = styled.aside`
@@ -64,6 +64,23 @@ export const ATag = styled.a`
 `
 
 export const SidebarLink = styled(LinkS)`
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 1.5rem;
+	text-decoration: none;
+	list-style: none;
+	transition: 0.2s ease-in-out;
+	text-decoration: none;
+	color: #fff;
+	cursor: pointer;
+	&:hover{
+		color: #01bf71;
+		transition: 0.2s ease-in-out;
+	}
+`
+
+export const SidebarLinkRouter = styled(LinkR)`
 	display: flex;
 	align-items: center;
 	justify-content: center;

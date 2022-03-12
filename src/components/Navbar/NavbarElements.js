@@ -76,7 +76,7 @@ export const NavMenu = styled.ul`
 export const NavItem = styled.li`
 	height: 80px;
 `
-export const ATag = styled.a`
+export const ATag = styled(LinkR)`
 	color: black;
 	display: flex;
 	font-weight: bold;
@@ -87,6 +87,38 @@ export const ATag = styled.a`
 	cursor: pointer;
 	&.active{
 		border-bottom: 3px solid #01bf71;
+	}
+`
+export const PdfTag = styled.a`
+	color: black;
+	display: flex;
+	font-weight: bold;
+	align-items: center;
+	text-decoration: none;
+	padding: 0 1rem;
+	height: 100%;
+	cursor: pointer;
+	&.active{
+		border-bottom: 3px solid #01bf71;
+	}
+`
+
+export const buyATag = styled.a`
+	border-radius: 50px;
+	background: #ff9999;
+	white-space: nowrap;
+	padding: 10px 20px;
+	color: black;
+	font-size: 14px;
+	font-weight:bold;
+	outline: none;
+	border:none;
+	cursor: pointer;
+	transition: all 0.2s ease-in-out;
+	text-decoration: none;
+	&:hover{
+		transition: all 0.2s ease-in-out;
+		background: #ff4d4d;
 	}
 `
 

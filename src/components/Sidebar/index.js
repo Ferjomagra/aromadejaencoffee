@@ -9,6 +9,7 @@ import {
     SidebarWrapper,
     SidebarMenu,
     SidebarLink,
+	SidebarLinkRouter,
     SideBtnWrap,
     SidebarRoute
 } from './SidebarElements'
@@ -22,13 +23,13 @@ const Sidebar = ({isOpen, toggle}) => {
  			<SidebarWrapper>
  				<SidebarMenu>
 
- 					<SidebarLink to="Ourcafeteria" onClick={toggle}>LA CAFETERÍA</SidebarLink>
+ 					<SidebarLinkRouter to="/Ourcafeteria" onClick={toggle}>LA CAFETERÍA</SidebarLinkRouter>
 
  					<ATag target="_blank" href={PdfCarta}>CARTA</ATag>
 
-					<SidebarLink to="Ourcoffee" onClick={toggle}>NUESTRO CAFÉ</SidebarLink>
+					<SidebarLinkRouter to="/OurCoffee" onClick={toggle}>NUESTRO CAFÉ</SidebarLinkRouter>
 
-					<SidebarLink to="AboutUs" onClick={toggle}>SOBRE NOSOTROS</SidebarLink>
+					<SidebarLinkRouter to="/AboutUs" onClick={toggle}>SOBRE NOSOTROS</SidebarLinkRouter>
 
 				</SidebarMenu>
 

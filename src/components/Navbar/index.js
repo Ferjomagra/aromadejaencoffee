@@ -12,6 +12,7 @@ import {
   NavItem,
   NavLinks,
   ATag,
+  PdfTag,
   NavBtn,
   NavBtnLink
 } from './NavbarElements'
@@ -31,25 +32,25 @@ const Navbar = ({toggle}) => {
           <NavMenu>
 
             <NavItem>
-              <NavLinks to="Ourcafeteria">LA CAFETERÍA</NavLinks>
+              <ATag to='/Ourcafeteria'>LA CAFETERÍA</ATag>
             </NavItem>
 
             <NavItem>
-              <ATag target="_blank" href={PdfCarta}>CARTA</ATag>
+              <PdfTag target="_blank" href={PdfCarta}>CARTA</PdfTag>
             </NavItem>
 
             <NavItem>
-              <NavLinks to="Ourcoffee">NUESTRO CAFÉ</NavLinks>
+              <ATag to='/OurCoffee'>NUESTRO CAFÉ</ATag>
             </NavItem>
 
             <NavItem>
-              <NavLinks to="AboutUs">SOBRE NOSOTROS</NavLinks>
+              <ATag to='/AboutUs'>SOBRE NOSOTROS</ATag>
             </NavItem>
 
           </NavMenu>
 
           <NavBtn>
-            <NavBtnLink to="Email">Compra aquí</NavBtnLink>
+            <NavBtnLink to="Email" href="https://aromadejaencoffee.com/">Compra aquí</NavBtnLink>
           </NavBtn>
         </NavbarContainer>
       </Nav>
