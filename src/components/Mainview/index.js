@@ -37,13 +37,13 @@ const Mainview = () => {
 				
 				
 				
-				<MainBtnWrapper>
+				{/*MainBtnWrapper>
 					<Button to="" onMouseEnter={onHover} 
 					onMouseLeave={onHover}
 					primary='true'
 					dark='true'>Contáctanos {hover ? <ArrowForward/> : <ArrowRight/>}
 					</Button>
-				</MainBtnWrapper>
+				</MainBtnWrapper>*/}
 			</MainContent>
 		</MainContainer>
 	)

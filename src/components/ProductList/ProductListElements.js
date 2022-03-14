@@ -101,13 +101,13 @@ export const MainP = styled.p`
 export const MainPGourmet = styled.p`
 	margin:0 0 0px;
 	padding: 0 0 0px;
-	color: #00cc88;
+	color: #ff1a1a;
 	font-weight: bold;
 	margin-bottom: 20px;
 	font-size: 55px;
 	text-align: left;
 	@media screen and (max-width:950px){
-		font-size: 45px;
+		font-size: 35px;
 	}
 `
 export const SecondMainP = styled.p`
@@ -144,9 +144,34 @@ export const WtpImg = styled.img`
 export const LocationImg = styled.img`
 	margin-left: 10px;
 	width: 100%;
-	max-width: 500px;
+	max-width: 200px;
 	border-radius: 10px;
 	@media screen and (max-width:903px){
 		margin-left:0px;
+	}
+`
+
+export const MainPCappuccino = styled.p`
+	margin:0 0 0px;
+	padding: 0 0 0px;
+	color: #333;
+	font-weight: bold;
+	margin-bottom: 20px;
+	font-size: 55px;
+	text-align: left;
+	@media screen and (max-width:950px){
+		font-size: 35px;
+	}
+`
+export const MainPCafetera = styled.p`
+	margin:0 0 0px;
+	padding: 0 0 0px;
+	color: #00cccc;
+	font-weight: bold;
+	margin-bottom: 20px;
+	font-size: 55px;
+	text-align: left;
+	@media screen and (max-width:950px){
+		font-size: 35px;
 	}
 `

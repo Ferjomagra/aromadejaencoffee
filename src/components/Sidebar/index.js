@@ -34,7 +34,7 @@ const Sidebar = ({isOpen, toggle}) => {
 				</SidebarMenu>
 
 				<SideBtnWrap>
-					<SidebarRoute to="" onClick={toggle}>Compra aquí</SidebarRoute>
+					<SidebarRoute target='_blank' href='https://aromadejaencoffee.com/'>Compra aquí</SidebarRoute>
 				</SideBtnWrap>	
  			</SidebarWrapper>
 

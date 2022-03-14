@@ -50,7 +50,7 @@ const Navbar = ({toggle}) => {
           </NavMenu>
 
           <NavBtn>
-            <NavBtnLink to="Email" href="https://aromadejaencoffee.com/">Compra aquí</NavBtnLink>
+            <NavBtnLink target='_blank' href='https://aromadejaencoffee.com/'>Compra aquí</NavBtnLink>
           </NavBtn>
         </NavbarContainer>
       </Nav>

@@ -12,11 +12,17 @@ import {
 	MainContent,
 	BoxSide,
 	MainBtnWrapper,
-	MainPGourmet,
 	ContactBox,
 	SecondMainP,
 	LocationImg,
+	MainPGourmet,
+	MainPCafetera,
+    MainPCappuccino
 } from './ProductListElements';
+
+import tostadoGourmet from '../../images/products/coffee_1.png'
+import expresoCappuccino from '../../images/products/coffee_2.2.png'
+import cafetera from '../../images/products/coffee_2.png'
 
 const OurCafeteria = () => {
 	const [hover, setHover] = useState(false)
@@ -37,16 +43,17 @@ const OurCafeteria = () => {
 							<TextSpan> de Productos</TextSpan>
 						</MainTitle>
 						
-						<IntroText>Un café y lugar siempre frescos</IntroText>
+						<IntroText></IntroText>
 					</FirstMainBox>
 
 					<MainContent>
 						<BoxSide>
 
 							<MainBtnWrapper>
-								<MainPGourmet>Los cuatro envases de café (dorado, negro, rojo, turquesa), café a granel de exportación, café pergamino, y café pilado</MainPGourmet>
+								<MainPGourmet>Tostado Gourmet</MainPGourmet>
 								<ContactBox>
-									<SecondMainP>Lo que ofrecemos sale de nuestro esfuerzo. Nuestras bebidas a base de café, te encantarán</SecondMainP>
+									<SecondMainP>Café de tostado suave, fresco, con mayor fineza y pensado en ti.</SecondMainP>
+									<SecondMainP>Ideal para un desayuno en familia, o una cena con invitados especiales.</SecondMainP>
 								</ContactBox>
 							</MainBtnWrapper>
 
@@ -55,7 +62,54 @@ const OurCafeteria = () => {
 						<BoxSide>
 
 							<TextA href="">
-								<LocationImg src="https://res.cloudinary.com/dintair/image/upload/v1643129532/Aroma%20de%20Ja%C3%A9n/flocal_3.jpg"/>
+								<LocationImg src={tostadoGourmet}/>
+							</TextA>
+							
+						</BoxSide>
+
+					</MainContent>
+
+                    <MainContent>
+						<BoxSide>
+
+							<MainBtnWrapper>
+								<MainPCappuccino>Cappuccino & Expresso</MainPCappuccino>
+								<ContactBox>
+									<SecondMainP>Café molido de intensidad moderado, especial para preparado de cappuccino y expresso a tu modo.</SecondMainP>
+									
+								</ContactBox>
+							</MainBtnWrapper>
+
+						</BoxSide>
+						
+						<BoxSide>
+
+							<TextA href="">
+								<LocationImg src={expresoCappuccino}/>
+							</TextA>
+							
+						</BoxSide>
+
+					</MainContent>
+
+                    <MainContent>
+
+						<BoxSide>
+
+							<MainBtnWrapper>
+								<MainPCafetera>Cafetera italiana o prensa francesa</MainPCafetera>
+								<ContactBox>
+									<SecondMainP>Especial para cafetera italiana o prensa francesa cuya intensidad de molido es mayor para garantizar iun sbaor más fuerte y exquisito.</SecondMainP>
+				
+								</ContactBox>
+							</MainBtnWrapper>
+
+						</BoxSide>
+						
+						<BoxSide>
+
+							<TextA href="">
+								<LocationImg src={cafetera}/>
 							</TextA>
 							
 						</BoxSide>
