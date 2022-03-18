@@ -9,13 +9,14 @@ export const MainContainer = styled.div`
 	justify-content: center;
 	align-items: center;
 	padding: 0 0px;
-	height: 800px;
+	height: 700px;
 	position: relative;
 	z-index: 1;
 `
 
+//background-color: #ff4d4d;
 export const MainBg = styled.div`
-	background-color: #ff4d4d;
+	
 	position: aboslute;
 	top: 0;
 	right:0;
@@ -28,6 +29,7 @@ export const MainBg = styled.div`
 
 export const Img = styled.img`
 	height: 100%;
+	max-height: 500px;
 	-o-object-fit: cover;
 	object-fit: cover;
 	-o-object-position: top;

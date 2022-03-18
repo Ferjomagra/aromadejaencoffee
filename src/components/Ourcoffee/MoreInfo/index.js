@@ -84,7 +84,7 @@ const OurCoffeeInfo = () => {
 						</TimeLineBoxes>
 
 						<TimeLineBoxes>
-							<TLTitle>3. Procesamiento y curado</TLTitle>
+							<TLTitle>3. Secado en bandejas solares</TLTitle>
 							<TLImg src={ProcesCurado}/>
 							<TLDesc>
 								En este paso, se procede a quitar la pulpa de la cereza para obtener el grano crudo,
@@ -181,7 +181,7 @@ const OurCoffeeInfo = () => {
 							<MainBtnWrapper>
 								<MainPCafetera>Cafetera italiana o prensa francesa</MainPCafetera>
 								<ContactBox>
-									<SecondMainP>Especial para cafetera italiana o prensa francesa cuya intensidad de molido es mayor para garantizar iun sbaor más fuerte y exquisito.</SecondMainP>
+									<SecondMainP>Especial para cafetera italiana o prensa francesa cuya intensidad de molido es mayor para garantizar un sabor más fuerte y exquisito.</SecondMainP>
 				
 								</ContactBox>
 							</MainBtnWrapper>

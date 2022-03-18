@@ -13,7 +13,8 @@ import {
 	ArrowRight
 } from './MainviewElements';
 //import productos from '../../images/products/real_coffee_main_png.png'
-import productos from '../../images/products/backgorund_2_ps.jpg'
+//import productos from '../../images/products/backgorund_2_ps.jpg'
+import productos from '../../images/products/background_3.jpg'
 import resp_background from '../../images/products/responsive_background.jpg'
 
 const Mainview = () => {

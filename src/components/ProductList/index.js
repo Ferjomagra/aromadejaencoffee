@@ -99,7 +99,7 @@ const OurCafeteria = () => {
 							<MainBtnWrapper>
 								<MainPCafetera>Cafetera italiana o prensa francesa</MainPCafetera>
 								<ContactBox>
-									<SecondMainP>Especial para cafetera italiana o prensa francesa cuya intensidad de molido es mayor para garantizar iun sbaor más fuerte y exquisito.</SecondMainP>
+									<SecondMainP>Especial para cafetera italiana o prensa francesa cuya intensidad de molido es mayor para garantizar un sabor más fuerte y exquisito.</SecondMainP>
 				
 								</ContactBox>
 							</MainBtnWrapper>
