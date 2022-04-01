@@ -4,13 +4,8 @@ import {
 	MainContainer,
 	MainBg,
 	Img,
-	Img2,
 	MainContent,
-	MainH1,
 	//HeroP,
-	MainBtnWrapper,
-	ArrowForward,
-	ArrowRight
 } from './MainviewElements';
 //import productos from '../../images/products/real_coffee_main_png.png'
 //import productos from '../../images/products/backgorund_2_ps.jpg'
@@ -31,7 +26,7 @@ const Mainview = () => {
 
 			<MainBg>
 				<Img src={productos}/>
-				<Img2 src={resp_background}/>
+				{/*<Img2 src={resp_background}/>*/}
 			</MainBg>
 
 			<MainContent>

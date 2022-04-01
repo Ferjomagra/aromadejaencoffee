@@ -1,7 +1,6 @@
 import React from 'react'
 import {FaBars} from 'react-icons/fa'
 import logo from '../../images/logo.png'
-import PdfCarta from '../../images/carta_Aroma_jaen.pdf'
 import {
   Nav,
   NavbarContainer,
@@ -10,7 +9,6 @@ import {
   MobileIcon,
   NavMenu,
   NavItem,
-  NavLinks,
   ATag,
   PdfTag,
   NavBtn,
@@ -36,7 +34,7 @@ const Navbar = ({toggle}) => {
             </NavItem>
 
             <NavItem>
-              <PdfTag target="_blank" href={PdfCarta}>CARTA</PdfTag>
+              <PdfTag target="_blank" href="https://res.cloudinary.com/dintair/image/upload/v1648824144/Aroma%20de%20Ja%C3%A9n/carta_aromadejaencoffee.pdf">CARTA</PdfTag>
             </NavItem>
 
             <NavItem>

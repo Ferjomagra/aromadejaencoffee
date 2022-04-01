@@ -61,9 +61,9 @@ const Footer = () => {
                                     <FaInstagram/>
                                 </SocialIconLink>
 
-                                <SocialIconLink href="/" target="_blank" aria-label="Linkedin">
+                                {/*<SocialIconLink href="/" target="_blank" aria-label="Linkedin">
                                     <FaLinkedin/>
-                                </SocialIconLink>
+    </SocialIconLink>*/}
                             </SocialIcons>
                         </SocialIcons>
                     </SocialMediaWrap>
