@@ -27,9 +27,8 @@ import {
 } from './MoreInfoElements';
 
 import Plantacion from '../../../images/production_process/plantones.jpg'
-import Recoleccion from '../../../images/production_process/recolectora.jpg'
-import ProcesCurado from '../../../images/production_process/curado.jpg'
-import AnalisisCalidad from '../../../images/products/coffee_6.png'
+import Recoleccion from '../../../images/production_process/recolectora.jpeg'
+import ProcesCurado from '../../../images/production_process/curado.jpeg'
 import Tostado from '../../../images/production_process/granos.png'
 import Molido from '../../../images/production_process/molido.jpg'
 import Envasado from '../../../images/products/coffee_6.png'
@@ -96,14 +95,7 @@ const OurCoffeeInfo = () => {
 						</TimeLineBoxes>
 
 						<TimeLineBoxes>
-							<TLTitle>4. Análisis de calidad</TLTitle>
-							<TLImg src={AnalisisCalidad}/>
-							<TLDesc>Se separan los granos para diferenciar la calidad del grano resultante. Este proceso puede tardar hasta un día debido a la clasificación
-								manual.</TLDesc>
-						</TimeLineBoxes>
-
-						<TimeLineBoxes>
-							<TLTitle>5. Tostado del grano</TLTitle>
+							<TLTitle>4. Tostado del grano</TLTitle>
 							<TLImg src={Tostado}/>
 							<TLDesc>El grano, al ser puesto a temperaturas aproximadas a 200°, aumenta su tamaño en un
 								80 a 100%, pierde peso, y disminuye su cafeina, y finalmente adquiere el típico color
@@ -113,7 +105,7 @@ const OurCoffeeInfo = () => {
 						</TimeLineBoxes>
 
 						<TimeLineBoxes>
-							<TLTitle>6. Molido</TLTitle>
+							<TLTitle>5. Molido</TLTitle>
 							<TLImg src={Molido}/>
 							<TLDesc>Se procede con la molienda de los granos de café, este lo reduce a polvo. Inmediatamente después,
 								se prepara el café.
@@ -121,7 +113,7 @@ const OurCoffeeInfo = () => {
 						</TimeLineBoxes>
 
 						<TimeLineBoxes>
-							<TLTitle>7. Envasado y producto final</TLTitle>
+							<TLTitle>6. Envasado y producto final</TLTitle>
 							<TLImg src={Envasado}/>
 							<TLDesc>El café molido procede al envasado, y es así como nuestro producto final nace.</TLDesc>
 						</TimeLineBoxes>

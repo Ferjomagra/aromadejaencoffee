@@ -47,9 +47,14 @@ const Navbar = ({toggle}) => {
 
           </NavMenu>
 
-          <NavBtn>
+          {/* <NavBtn>
             <NavBtnLink target='_blank' href='https://aromadejaencoffee.com/'>Compra aquí</NavBtnLink>
+          </NavBtn> */}
+
+          <NavBtn>
+            <NavBtnLink target='_blank' href='https://res.cloudinary.com/dintair/image/upload/v1648824144/Aroma%20de%20Ja%C3%A9n/carta_aromadejaencoffee.pdf'>Nuestra Carta</NavBtnLink>
           </NavBtn>
+
         </NavbarContainer>
       </Nav>
     </>
