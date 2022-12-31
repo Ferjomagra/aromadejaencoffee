@@ -12,6 +12,7 @@ import {
 	TextSpan,
 	TextSpan2,
 	IntroText,
+	MenuButton,
 	TextA,
 	MainContent,
 	MainContent2,
