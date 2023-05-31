@@ -24,7 +24,7 @@ const Sidebar = ({isOpen, toggle}) => {
 
  					<SidebarLinkRouter to="/Ourcafeteria" onClick={toggle}>LA CAFETERÍA</SidebarLinkRouter>
 
- 					<ATag target="_blank" href="https://res.cloudinary.com/dintair/image/upload/v1648824144/Aroma%20de%20Ja%C3%A9n/carta_aromadejaencoffee.pdf">CARTA</ATag>
+ 					<ATag target="_blank" href="https://res.cloudinary.com/dintair/image/upload/v1672493881/Aroma%20de%20Ja%C3%A9n/AromaDeJa%C3%A9n_carta.pdf">CARTA</ATag>
 
 					<SidebarLinkRouter to="/OurCoffee" onClick={toggle}>NUESTRO CAFÉ</SidebarLinkRouter>
 

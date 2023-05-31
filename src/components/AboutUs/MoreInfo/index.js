@@ -79,7 +79,7 @@ const AboutUsInfo = () => {
                                 </Column1>
                                 <Column2>
                                     <ImgWrap>
-                                        <Img src={taza} alt=""/>
+                                        <Img src="https://res.cloudinary.com/dintair/image/upload/v1684901675/Aroma%20de%20Ja%C3%A9n/collage.png" alt=""/>
                                     </ImgWrap>
                                 </Column2>
                             </SecundaryRow>
@@ -107,7 +107,7 @@ const AboutUsInfo = () => {
                                 </Column1>
                                 <Column2>
                                     <ImgWrap>
-                                        <Img src="https://res.cloudinary.com/dintair/image/upload/v1643551376/Aroma%20de%20Ja%C3%A9n/flocal_5.jpg" alt="La cafetería"/>
+                                        <Img src="https://res.cloudinary.com/dintair/image/upload/v1588651844/ruv8lsdrhjall5j9vtqm.jpg" alt="La cafetería"/>
                                     </ImgWrap>
                                 </Column2>
                             </InfoRow>
@@ -136,7 +136,7 @@ const AboutUsInfo = () => {
                                 </Column1>
                                 <Column2>
                                     <ImgWrap>
-                                        <Img src="https://res.cloudinary.com/dintair/image/upload/v1643571825/Aroma%20de%20Ja%C3%A9n/projects_vision.jpg" alt=""/>
+                                        <Img src="https://res.cloudinary.com/dintair/image/upload/v1684903478/Aroma%20de%20Ja%C3%A9n/Dise%C3%B1o_sin_t%C3%ADtulo_1.png" alt=""/>
                                     </ImgWrap>
                                 </Column2>
                             </SecundaryRow>
@@ -163,7 +163,7 @@ const AboutUsInfo = () => {
                                 </Column1>
                                 <Column2>
                                     <ImgWrap>
-                                        <Img src="https://res.cloudinary.com/dintair/image/upload/v1643128640/Aroma%20de%20Ja%C3%A9n/local_4.jpg" alt="La cafetería"/>
+                                        <Img src="https://res.cloudinary.com/dintair/image/upload/v1684904673/Aroma%20de%20Ja%C3%A9n/Dise%C3%B1o_sin_t%C3%ADtulo_2.png" alt="La cafetería"/>
                                     </ImgWrap>
                                 </Column2>
                             </InfoRow>

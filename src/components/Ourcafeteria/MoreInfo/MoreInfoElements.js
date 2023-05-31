@@ -91,6 +91,20 @@ export const IntroText = styled.p`
 	max-width: 800px;
 `
 
+export const MenuButton = styled.a`
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-right: 35px;
+	padding-left: 35px;
+	background: #00cc88;
+	cursor: pointer;
+	border-radius: 50px;
+	color: black;
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 20px;
+`
+
 export const VideoBg = styled.video`
 	width: 100%;
 	height: 100%;

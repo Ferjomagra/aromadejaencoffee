@@ -34,7 +34,7 @@ const Navbar = ({toggle}) => {
             </NavItem>
 
             <NavItem>
-              <PdfTag target="_blank" href="https://res.cloudinary.com/dintair/image/upload/v1648824144/Aroma%20de%20Ja%C3%A9n/carta_aromadejaencoffee.pdf">CARTA</PdfTag>
+              <PdfTag target="_blank" href="https://res.cloudinary.com/dintair/image/upload/v1672493881/Aroma%20de%20Ja%C3%A9n/AromaDeJa%C3%A9n_carta.pdf">CARTA</PdfTag>
             </NavItem>
 
             <NavItem>
@@ -47,9 +47,14 @@ const Navbar = ({toggle}) => {
 
           </NavMenu>
 
-          <NavBtn>
+          {/* <NavBtn>
             <NavBtnLink target='_blank' href='https://aromadejaencoffee.com/'>Compra aquí</NavBtnLink>
+          </NavBtn> */}
+
+          <NavBtn>
+            <NavBtnLink target='_blank' href='https://res.cloudinary.com/dintair/image/upload/v1672493881/Aroma%20de%20Ja%C3%A9n/AromaDeJa%C3%A9n_carta.pdf'>Nuestra Carta</NavBtnLink>
           </NavBtn>
+
         </NavbarContainer>
       </Nav>
     </>
