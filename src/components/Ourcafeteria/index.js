@@ -1,6 +1,6 @@
 import React from 'react'
  import {Button, ButtonA} from '../ButtonElements'
- import car from '../../images/products/local_info.png'
+ import car from '../../images/products/local_info.jpg'
 
  import {
      InfoContainer,

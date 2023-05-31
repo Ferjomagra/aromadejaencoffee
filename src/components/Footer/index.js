@@ -39,7 +39,7 @@ const Footer = () => {
                         <FooterLinkItems>
                             <FooterLinkTitle> Aquí estamos </FooterLinkTitle>
                            
-                           <FooterLinkA href="https://www.google.com/maps/place/Aroma+de+ja%C3%A9n+Coffee/@-12.1974935,-77.0100318,15z/data=!4m5!3m4!1s0x0:0x5481ed2b3067c98!8m2!3d-12.1974935!4d-77.0100318?hl=es" target="_blank">Av Alameda San Marcos, Jirón Eleuthería, Chorrillos 15067</FooterLinkA>
+                           <FooterLinkA href="https://www.google.com/maps/place/Aroma+de+ja%C3%A9n+Coffee/@-12.1983403,-77.0096197,19z/data=!3m1!4b1!4m6!3m5!1s0x9105b9940749ecff:0x5481ed2b3067c98!8m2!3d-12.1983403!4d-77.008976!16s%2Fg%2F11flzsz576" target="_blank">Av Alameda San Marcos con Calle Barataría, Frente a la UPC de Chorrillos</FooterLinkA>
                            <FooterLink to="/signin">aromadejaenwilser@gmail.com</FooterLink>
                            
                         </FooterLinkItems>
@@ -51,7 +51,7 @@ const Footer = () => {
                         <SocialLogo to="/">
                             <Img src={logo}/>
                         </SocialLogo>
-                        <WebsiteRights> © {new Date().getFullYear()} Aroma de Jaén Coffee Todos los derechos reservados.</WebsiteRights>
+                        <WebsiteRights> © {new Date().getFullYear()} Aroma de Jaén Coffee. Todos los derechos reservados.</WebsiteRights>
                         <SocialIcons>
                             <SocialIcons>
                                 <SocialIconLink href="https://www.facebook.com/aromadejaen" target="_blank" aria-label="Facebook">
