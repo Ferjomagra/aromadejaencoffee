@@ -25,12 +25,7 @@ import {
     SecundaryContainer,
     SecundaryWrapper,
     SecundaryRow,
-    BtnWrap,
 } from './MoreInfoElements';
-
-
-import taza from '../../../images/cafeteria/taza.png'
-import productos from '../../../images/products/hand_coffee.jpg'
 
 const AboutUsInfo = () => {
 	const [hover, setHover] = useState(false)
