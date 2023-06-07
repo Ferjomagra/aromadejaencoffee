@@ -35,7 +35,7 @@ const Sidebar = ({isOpen, toggle}) => {
 				<SideBtnWrap>
 					<SidebarRoute target='_blank' href='https://res.cloudinary.com/dintair/image/upload/v1680356872/Aroma%20de%20Ja%C3%A9n/carta_ajaen.pdf'>Nuestra carta</SidebarRoute>
 				</SideBtnWrap>	
- 			</SidebarWrapper>
+ 			</SidebarWrapper> 
 
  		</SidebarContainer>
     )
