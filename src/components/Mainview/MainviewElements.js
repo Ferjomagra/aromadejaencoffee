@@ -29,7 +29,7 @@ export const MainBg = styled.div`
 
 export const Img = styled.img`
 	height: 100%;
-	max-height: 520px;
+	max-height: 700px;
 	-o-object-fit: cover;
 	object-fit: cover;
 	-o-object-position: top;
@@ -41,7 +41,7 @@ export const Img = styled.img`
 //En Img: responsive: @media screen and (max-width:730px){display:none;}
 
 
-/*export const Img2 = styled.img`
+export const Img2 = styled.img`
 	display: none;
 	@media screen and (max-width:730px){
 		height: 100%;
@@ -54,7 +54,7 @@ export const Img = styled.img`
 		width: 100%;
 		display:block;
 	}
-`*/
+`
 
 export const VideoBg = styled.video`
 	width: 100%;

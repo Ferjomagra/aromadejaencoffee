@@ -5,11 +5,13 @@ import {
 	MainBg,
 	Img,
 	MainContent,
+	Img2
 	//HeroP,
 } from './MainviewElements';
 //import productos from '../../images/products/real_coffee_main_png.png'
 //import productos from '../../images/products/backgorund_2_ps.jpg'
-import productos from '../../images/products/background_3.jpg'
+// import productos from '../../images/products/background_3.jpg'
+import productos from '../../images/products/background_ajaen_1.png'
 import resp_background from '../../images/products/responsive_background.jpg'
 
 const Mainview = () => {
@@ -26,7 +28,7 @@ const Mainview = () => {
 
 			<MainBg>
 				<Img src={productos}/>
-				{/*<Img2 src={resp_background}/>*/}
+				<Img2 src={resp_background}/>
 			</MainBg>
 
 			<MainContent>
