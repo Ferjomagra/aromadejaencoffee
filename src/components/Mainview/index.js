@@ -12,7 +12,7 @@ import {
 //import productos from '../../images/products/backgorund_2_ps.jpg'
 // import productos from '../../images/products/background_3.jpg'
 import productos from '../../images/products/background_ajaen_1.png'
-import resp_background from '../../images/products/responsive_background.jpg'
+import resp_background from '../../images/products/resp_background.jpg'
 
 const Mainview = () => {
 	const [hover, setHover] = useState(false)
