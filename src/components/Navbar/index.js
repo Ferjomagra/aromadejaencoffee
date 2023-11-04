@@ -34,10 +34,6 @@ const Navbar = ({toggle}) => {
             </NavItem>
 
             <NavItem>
-              <PdfTag target="_blank" href="https://res.cloudinary.com/dintair/image/upload/v1672493881/Aroma%20de%20Ja%C3%A9n/AromaDeJa%C3%A9n_carta.pdf">CARTA</PdfTag>
-            </NavItem>
-
-            <NavItem>
               <ATag to='/OurCoffee'>NUESTRO CAFÉ</ATag>
             </NavItem>
 
@@ -47,12 +43,9 @@ const Navbar = ({toggle}) => {
 
           </NavMenu>
 
-          {/* <NavBtn>
-            <NavBtnLink target='_blank' href='https://aromadejaencoffee.com/'>Compra aquí</NavBtnLink>
-          </NavBtn> */}
-
           <NavBtn>
-            <NavBtnLink target='_blank' href='https://res.cloudinary.com/dintair/image/upload/v1672493881/Aroma%20de%20Ja%C3%A9n/AromaDeJa%C3%A9n_carta.pdf'>Nuestra Carta</NavBtnLink>
+            {/* <NavBtnLink target='_blank' href='https://res.cloudinary.com/dintair/image/upload/v1686235055/Aroma%20de%20Ja%C3%A9n/carta_Aroma_Jaen.pdf'>Nuestra Carta</NavBtnLink> */}
+            <NavBtnLink href='/ContactUs'>Contáctanos</NavBtnLink>
           </NavBtn>
 
         </NavbarContainer>

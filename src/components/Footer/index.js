@@ -1,6 +1,6 @@
 import React from 'react'
 
-import {FaFacebook, FaInstagram, FaLinkedin} from 'react-icons/fa'
+import {FaFacebook, FaInstagram, FaWhatsapp} from 'react-icons/fa'
 import {
     FooterContainer,
     FooterWrap,
@@ -41,6 +41,7 @@ const Footer = () => {
                            
                            <FooterLinkA href="https://www.google.com/maps/place/Aroma+de+ja%C3%A9n+Coffee/@-12.1983403,-77.0096197,19z/data=!3m1!4b1!4m6!3m5!1s0x9105b9940749ecff:0x5481ed2b3067c98!8m2!3d-12.1983403!4d-77.008976!16s%2Fg%2F11flzsz576" target="_blank">Av Alameda San Marcos con Calle Barataría, Frente a la UPC de Chorrillos</FooterLinkA>
                            <FooterLink to="/signin">aromadejaenwilser@gmail.com</FooterLink>
+                           <FooterLink to="/signin">aromadejaencoffeeinternational@gmail.com</FooterLink>
                            
                         </FooterLinkItems>
                     </FooterLinksWrapper>
@@ -62,9 +63,9 @@ const Footer = () => {
                                     <FaInstagram/>
                                 </SocialIconLink>
 
-                                {/*<SocialIconLink href="/" target="_blank" aria-label="Linkedin">
-                                    <FaLinkedin/>
-    </SocialIconLink>*/}
+                                <SocialIconLink href="https://wa.link/2up311" target="_blank" aria-label="WhatsApp">
+                                    <FaWhatsapp/>
+                                </SocialIconLink>
                             </SocialIcons>
                         </SocialIcons>
                     </SocialMediaWrap>
