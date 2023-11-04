@@ -45,7 +45,7 @@ const OurCafeteria = () => {
 						
 						<IntroText>Un café y lugar siempre frescos</IntroText>
 
-						<MenuButton href="https://res.cloudinary.com/dintair/image/upload/v1686235055/Aroma%20de%20Ja%C3%A9n/carta_Aroma_Jaen.pdf" target="_blank">Nuestra carta</MenuButton>
+						{/* <MenuButton href="https://res.cloudinary.com/dintair/image/upload/v1686235055/Aroma%20de%20Ja%C3%A9n/carta_Aroma_Jaen.pdf" target="_blank">Nuestra carta</MenuButton> */}
 
 					</FirstMainBox>
 
